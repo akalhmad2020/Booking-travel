@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        >
+        <item
+            android:id="@+id/all_countries"
+            android:title="All countries"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/algeria"
+            android:title="Algeria"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/palestine"
+            android:title="Palestine"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/egypt"
+            android:title="Egypt"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/jordan"
+            android:title="Jordan"
+            app:showAsAction="never"
+            />
+
+    </group>
+
+
+
+
+</menu>

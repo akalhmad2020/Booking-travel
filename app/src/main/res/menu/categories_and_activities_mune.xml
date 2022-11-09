@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        >
+        <item
+            android:id="@+id/mountains"
+            android:title="Mountains"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/beach"
+            android:title="Beach"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/kayak"
+            android:title="Kayak"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/camping"
+            android:title="Camping"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/landmark"
+            android:title="Landmark"
+            app:showAsAction="never"
+            />
+
+    </group>
+</menu>

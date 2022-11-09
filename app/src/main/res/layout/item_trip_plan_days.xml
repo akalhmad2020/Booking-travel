@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_61sdp"
+    android:layout_height="@dimen/_61sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_20sdp"
+    android:layout_margin="@dimen/_3sdp"
+    >
+
+    <TextView
+        android:id="@+id/tv_trip_plan_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14ssp"
+        android:text="09 July"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        android:textColor="#5B4DBC"
+        android:textStyle="normal"
+        />
+
+
+
+
+</androidx.cardview.widget.CardView>

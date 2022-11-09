@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookingtravel">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:name=".ui.main.BaseApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.BookingTravel">
+        <activity
+            android:name=".log.LogUp"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".log.Splash"
+            android:exported="false" />
+        <activity
+            android:name=".log.LogIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".ui.intro.Intro"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".ui.main.CompleteBooking" />
+        <activity android:name=".ui.main.ConfirmBooking" />
+        <activity android:name=".ui.main.ViewRoom" />
+        <activity android:name=".ui.main.BookingTrip" />
+        <activity android:name=".ui.main.TripPlan" />
+        <activity android:name=".ui.main.PlaceTripDetails" />
+        <activity android:name=".ui.main.ListingCategories" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+
+
+
+        </activity>
+    </application>
+
+</manifest>

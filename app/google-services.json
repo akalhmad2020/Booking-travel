@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "70207065114",
+    "project_id": "btapp-3b056",
+    "storage_bucket": "btapp-3b056.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70207065114:android:6ed375a307620d32a3d5a3",
+        "android_client_info": {
+          "package_name": "com.example.bookingtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70207065114-dngegqvn4c2jsm0ruqf1nlj1b14jiber.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookingtravel",
+            "certificate_hash": "d475ec5e41836236925a8127da78d5c863fe717d"
+          }
+        },
+        {
+          "client_id": "70207065114-icai5neggs2cvmnlpqni0qbtpj6b7sf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2KExSBDH2QjGh4WA1c5hyptROx--c-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70207065114-icai5neggs2cvmnlpqni0qbtpj6b7sf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

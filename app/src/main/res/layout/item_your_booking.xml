@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_30sdp"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_14sdp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_20sdp"
+                >
+                <ImageView
+                    android:id="@+id/iv_your_booking"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:background="#5B4DBC"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_name_place_your_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hornborga"
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_26sdp"
+                />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              >
+              <TextView
+                  android:id="@+id/tv_name_city_your_booking"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Stockholm"
+                  android:textColor="#B7B7B7"
+                  android:textSize="@dimen/_12ssp"
+                  android:layout_marginTop="@dimen/_8sdp"
+                  />
+
+              <TextView
+                  android:id="@+id/tv_name_country_your_booking"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="   Sweden"
+                  android:textColor="#B7B7B7"
+                  android:textSize="@dimen/_12ssp"
+                  android:layout_marginTop="@dimen/_8sdp"
+                  />
+
+
+          </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="from:"
+                    android:textColor="#B7B7B7"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    />
+
+                <TextView
+                    android:id="@+id/from_date_your_booking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="09 july "
+                    android:textColor="#5B4DBC"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to:"
+                    android:textColor="#B7B7B7"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    />
+
+                <TextView
+                    android:id="@+id/to_date_your_booking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 july "
+                    android:textColor="#5B4DBC"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

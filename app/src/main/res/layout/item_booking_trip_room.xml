@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_80sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#FFF4F2"
+    app:cardCornerRadius="@dimen/_20sdp"
+    android:layout_margin="@dimen/_5sdp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <ImageView
+            android:id="@+id/iv_booking_trip_room"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/room"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_14sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_booking_trip_kind_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deluxe"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp"
+                />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_booking_trip_room_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$350"
+                        android:textStyle="bold"
+                        android:textColor="#FFA183"
+                        android:textSize="@dimen/_14ssp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_booking_trip_room_count_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" / Days"
+                        android:textSize="@dimen/_14ssp"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
